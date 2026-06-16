@@ -1,0 +1,79 @@
+# =====================================================
+# ZenexClans - Сообщения
+# =====================================================
+
+messages:
+  # === ОБЩИЕ ===
+  no-permission: "&c❌ У вас нет прав!"
+  player-not-found: "&c❌ Игрок не найден!"
+  not-in-clan: "&c❌ Вы не состоите в клане!"
+  already-in-clan: "&c❌ Вы уже состоите в клане!"
+  clan-not-found: "&c❌ Клан не найден!"
+  
+  # === СОЗДАНИЕ ===
+  clan-create-usage: "&c/clan create <название>"
+  clan-create-success: "&a✅ Клан &6{name} &aсоздан!"
+  clan-create-exists: "&c❌ Клан с таким названием уже существует!"
+  clan-create-invalid: "&c❌ Недопустимое название!"
+  clan-create-short: "&c❌ Минимум {min} символов"
+  clan-create-long: "&c❌ Максимум {max} символов"
+  
+  # === РАСФОРМИРОВАНИЕ ===
+  clan-disband: "&c❌ Клан &6{name} &cрасформирован!"
+  clan-disband-confirm: "&c⚠️ Напишите &e/clan disband confirm"
+  
+  # === ПРИГЛАШЕНИЯ ===
+  clan-invite-usage: "&c/clan invite <игрок>"
+  clan-invite-sent: "&a✅ Приглашение отправлено &6{player}&a!"
+  clan-invite-received: "&e📨 &6{player} &eприглашает в клан &6{clan}&e! /clan join {clan}"
+  clan-invite-not-found: "&c❌ Приглашение не найдено!"
+  clan-invite-self: "&c❌ Нельзя пригласить себя!"
+  
+  # === ВСТУПЛЕНИЕ ===
+  clan-join-success: "&a✅ Вы вступили в клан &6{clan}&a!"
+  clan-join-full: "&c❌ Клан полон! Максимум {max} участников"
+  
+  # === ВЫХОД ===
+  clan-leave: "&a✅ Вы покинули клан &6{clan}&a!"
+  clan-leave-leader: "&c❌ Лидер не может покинуть клан!"
+  
+  # === КИК ===
+  clan-kick-usage: "&c/clan kick <игрок>"
+  clan-kick-success: "&a✅ &6{player} &aкикнут из клана!"
+  clan-kick-leader: "&c❌ Нельзя кикнуть лидера!"
+  
+  # === ПОВЫШЕНИЕ/ПОНИЖЕНИЕ ===
+  clan-promote-usage: "&c/clan promote <игрок>"
+  clan-promote-success: "&a✅ &6{player} &aповышен до &6{role}&a!"
+  clan-demote-usage: "&c/clan demote <игрок>"
+  clan-demote-success: "&a✅ &6{player} &aпонижен до &7{role}&a!"
+  
+  # === БАНК ===
+  clan-bank-deposit: "&a✅ Вы положили &6{item} x{amount} &aв банк клана!"
+  clan-bank-withdraw: "&a✅ Вы забрали &6{item} x{amount} &aиз банка клана!"
+  clan-bank-full: "&c❌ Банк клана полон!"
+  clan-bank-empty: "&c❌ Банк клана пуст!"
+  clan-bank-not-enough: "&c❌ В банке нет &6{item} x{amount}&c!"
+  
+  # === ИНФОРМАЦИЯ ===
+  clan-info: |
+    &6=== Информация о клане ===
+    &7Название: &6{name}
+    &7Лидер: &6{leader}
+    &7Участников: &6{members}/{max}
+    &7Дата создания: &6{created}
+  
+  # === GUI ===
+  gui-no-clan: "&c❌ Вы не состоите в клане!"
+  gui-back: "&c&l◀ Назад"
+  gui-close: "&c&l✖ Закрыть"
+  gui-info: "&6&lℹ Информация"
+  gui-members: "&6&l👥 Участники"
+  gui-bank: "&6&l💰 Банк"
+  gui-invite: "&6&l📨 Пригласить"
+  gui-settings: "&6&l⚙ Настройки"
+  gui-disband: "&c&l🗑 Расформировать"
+  gui-leave: "&c&l🚪 Покинуть"
+  gui-promote: "&6&l⬆ Повысить"
+  gui-demote: "&e&l⬇ Понизить"
+  gui-kick: "&c&l🗑 Кикнуть"

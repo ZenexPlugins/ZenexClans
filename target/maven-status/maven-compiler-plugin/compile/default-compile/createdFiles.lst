@@ -1,0 +1,16 @@
+com/zenex/clans/utils/PlaceholderHook.class
+com/zenex/clans/manager/BlacklistManager.class
+com/zenex/clans/utils/MessageManager.class
+com/zenex/clans/manager/BankManager.class
+com/zenex/clans/data/ClanPlayer$Role.class
+com/zenex/clans/ZenexClans.class
+com/zenex/clans/manager/ClanManager.class
+com/zenex/clans/data/Clan.class
+com/zenex/clans/command/ClanAdminCommand.class
+com/zenex/clans/command/ClanChatCommand.class
+com/zenex/clans/listener/ClanListener.class
+com/zenex/clans/manager/InviteManager.class
+com/zenex/clans/data/ClanPlayer.class
+com/zenex/clans/command/ClanCommand.class
+com/zenex/clans/manager/DatabaseManager.class
+com/zenex/clans/manager/InviteManager$Invite.class

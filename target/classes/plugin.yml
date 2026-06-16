@@ -1,0 +1,48 @@
+name: ZenexClans
+version: 1.0.0
+api-version: 1.21
+main: com.zenex.clans.ZenexClans
+author: ZenexPlugins
+description: 🏰 Полная клановая система
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  clan:
+    description: Главная команда кланов
+    usage: /clan
+    aliases: [c, клан]
+  
+  clanchat:
+    description: Клановый чат
+    usage: /clanchat <сообщение>
+    aliases: [cc, кч]
+  
+  clanadmin:
+    description: Административные команды
+    usage: /clanadmin <reload|reset|delete>
+    permission: zenexclans.admin
+    aliases: [ca]
+
+permissions:
+  zenexclans.admin:
+    default: op
+  zenexclans.use:
+    default: true
+  zenexclans.create:
+    default: true
+  zenexclans.invite:
+    default: true
+  zenexclans.join:
+    default: true
+  zenexclans.leave:
+    default: true
+  zenexclans.kick:
+    default: true
+  zenexclans.promote:
+    default: true
+  zenexclans.demote:
+    default: true
+  zenexclans.bank:
+    default: true

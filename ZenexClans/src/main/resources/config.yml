@@ -1,0 +1,14 @@
+# =====================================================
+# ZenexClans - Конфигурация
+# =====================================================
+
+enabled: true
+
+clan:
+  max-members: 20
+  default-color: "&b"
+
+database:
+  type: sqlite
+  sqlite:
+    file: "ZenexClans.db"

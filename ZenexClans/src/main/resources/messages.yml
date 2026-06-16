@@ -1,0 +1,73 @@
+# =====================================================
+# ZenexClans - Сообщения
+# =====================================================
+
+messages:
+  no-permission: "&c❌ У вас нет прав!"
+  player-not-found: "&c❌ Игрок не найден!"
+  not-in-clan: "&c❌ Вы не состоите в клане!"
+  already-in-clan: "&c❌ Вы уже состоите в клане!"
+  clan-not-found: "&c❌ Клан не найден!"
+  only-leader: "&c❌ Только лидер может это сделать!"
+  only-leader-or-coleader: "&c❌ Только лидер или солидер может это сделать!"
+  player-not-in-clan: "&c❌ Игрок не состоит в клане!"
+  
+  clan-create-usage: "&c/clan create <название>"
+  clan-create-success: "&a✅ Клан &6{name} &aсоздан!"
+  clan-create-exists: "&c❌ Клан с таким названием уже существует!"
+  clan-create-invalid: "&c❌ Недопустимое название!"
+  clan-create-color: "&a✅ Цвет клана установлен на {color}!"
+  
+  clan-disband: "&c❌ Клан &6{name} &cрасформирован!"
+  
+  clan-invite-usage: "&c/clan invite <игрок>"
+  clan-invite-sent: "&a✅ Приглашение отправлено &6{player}&a!"
+  clan-invite-received: "&e📨 &6{player} &eприглашает вас в клан &6{clan}&e! Используйте &6/clan accept {clan}"
+  clan-invite-self: "&c❌ Нельзя пригласить себя!"
+  clan-invite-already: "&c❌ Игрок уже в клане!"
+  clan-invite-not-found: "&c❌ Приглашение не найдено!"
+  
+  clan-accept-success: "&a✅ Вы вступили в клан &6{clan}&a!"
+  clan-accept-full: "&c❌ Клан полон! Максимум {max} участников"
+  clan-accept-not-invited: "&c❌ Вас не приглашали в этот клан!"
+  
+  clan-deny-success: "&c❌ Вы отклонили приглашение в клан &6{clan}&c!"
+  
+  clan-list-header: "&6=== Участники клана &6{clan} &6==="
+  clan-list-entry: "{color}{role} {player}"
+  clan-list-empty: "&7Участников нет"
+  
+  clan-info: |
+    &6=== Информация о клане ===
+    &7Название: &6{name}
+    &7Цвет: {color}
+    &7Лидер: &6{leader}
+    &7Солидер: &6{coleader}
+    &7Участников: &6{members}/{max}
+    &7Дата создания: &6{created}
+  
+  clan-kick-usage: "&c/clan kick <игрок>"
+  clan-kick-success: "&a✅ &6{player} &aкикнут из клана!"
+  clan-kick-leader: "&c❌ Нельзя кикнуть лидера!"
+  clan-kick-coleader: "&c❌ Нельзя кикнуть солидера!"
+  
+  clan-addbw-usage: "&c/clan addbw <игрок>"
+  clan-addbw-success: "&a✅ &6{player} &aдобавлен в чёрный список!"
+  clan-addbw-already: "&c❌ Игрок уже в чёрном списке!"
+  
+  clan-removebw-usage: "&c/clan removebw <игрок>"
+  clan-removebw-success: "&a✅ &6{player} &aудалён из чёрного списка!"
+  clan-removebw-not-found: "&c❌ Игрок не найден в чёрном списке!"
+  
+  clan-help: |
+    &6=== ZenexClans Help ===
+    &e/clan create <название> &7- Создать клан (с цветом: &6/clan create &c&lР&6&lА&a&lД&b&lУ&d&lГ&e&lА)
+    &e/clan disband &7- Расформировать клан
+    &e/clan invite <игрок> &7- Пригласить игрока
+    &e/clan accept <клан> &7- Принять приглашение
+    &e/clan deny <клан> &7- Отклонить приглашение
+    &e/clan list &7- Список участников клана
+    &e/clan info &7- Информация о клане
+    &e/clan kick <игрок> &7- Кикнуть игрока
+    &e/clan addbw <игрок> &7- Добавить в ЧС
+    &e/clan removebw <игрок> &7- Удалить из ЧС
